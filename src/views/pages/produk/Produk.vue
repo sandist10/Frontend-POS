@@ -16,7 +16,7 @@ const products = ref([
     price: 25000,
     stock: 50,
     desc: "Nasi goreng lengkap dengan topping telur dan ayam",
-    img: "https://source.unsplash.com/200x200/?nasi-goreng",
+    img: new URL('@/assets/img/nasigoreng.jpeg', import.meta.url).href,
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const products = ref([
     price: 8000,
     stock: 100,
     desc: "Teh manis dingin segar pelepas dahaga",
-    img: "https://source.unsplash.com/200x200/?iced-tea",
+    img: new URL('@/assets/img/esteh.jpeg', import.meta.url).href,
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const products = ref([
     price: 22000,
     stock: 40,
     desc: "Ayam goreng crispy dengan sambal pedas",
-    img: "https://source.unsplash.com/200x200/?ayam-geprek",
+    img: new URL('@/assets/img/ayamgeprek.jpeg', import.meta.url).href,
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const products = ref([
     price: 18000,
     stock: 60,
     desc: "Mie ayam dengan topping ayam melimpah",
-    img: "https://source.unsplash.com/200x200/?mie-ayam",
+    img: new URL('@/assets/img/mieayam.jpeg', import.meta.url).href,
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ const products = ref([
     price: 20000,
     stock: 70,
     desc: "Bakso sapi dengan kuah gurih",
-    img: "https://source.unsplash.com/200x200/?bakso",
+    img: new URL('@/assets/img/bakso.jpeg', import.meta.url).href,
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ const products = ref([
     price: 9000,
     stock: 90,
     desc: "Minuman jeruk segar dingin",
-    img: "https://source.unsplash.com/200x200/?orange-juice",
+    img: new URL('@/assets/img/esjeruk.jpeg', import.meta.url).href,
   },
   {
     id: 7,
@@ -70,7 +70,7 @@ const products = ref([
     price: 15000,
     stock: 80,
     desc: "Kentang goreng renyah dan gurih",
-    img: "https://source.unsplash.com/200x200/?french-fries",
+    img: new URL('@/assets/img/kentang.jpeg', import.meta.url).href,
   },
   {
     id: 8,
@@ -79,7 +79,7 @@ const products = ref([
     price: 28000,
     stock: 35,
     desc: "Burger daging sapi dengan sayur segar",
-    img: "https://source.unsplash.com/200x200/?burger",
+    img: new URL('@/assets/img/burgers.jpeg', import.meta.url).href,
   },
   {
     id: 9,
@@ -88,7 +88,7 @@ const products = ref([
     price: 30000,
     stock: 25,
     desc: "Potongan pizza dengan topping keju",
-    img: "https://source.unsplash.com/200x200/?pizza",
+    img: new URL('@/assets/img/pizza.jpeg', import.meta.url).href,
   },
   {
     id: 10,
@@ -97,7 +97,7 @@ const products = ref([
     price: 18000,
     stock: 55,
     desc: "Kopi susu dingin kekinian",
-    img: "https://source.unsplash.com/200x200/?iced-coffee",
+    img: new URL('@/assets/img/eskopi.jpeg', import.meta.url).href,
   },
 ]);
 

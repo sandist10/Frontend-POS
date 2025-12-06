@@ -77,7 +77,6 @@ const handleLogin = () => {
                             </div>
                             <span class="font-medium no-underline ml-2 text-right cursor-pointer text-primary">Forgot password?</span>
                         </div> -->
-
                         <Button label="Sign In" class="w-full" @click="handleLogin" />
                     </div>
                 </div>

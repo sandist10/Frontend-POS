@@ -18,7 +18,7 @@ const products = ref([
     category: "Makanan",
     price: 25000,
     stock: 50,
-    img: "https://source.unsplash.com/300x300/?fried-rice"
+    img: new URL('@/assets/img/nasigoreng.jpeg', import.meta.url).href
   },
   {
     id: 2,
@@ -26,31 +26,31 @@ const products = ref([
     category: "Minuman",
     price: 5000,
     stock: 40,
-    img: "https://source.unsplash.com/300x300/?iced-tea"
+    img: new URL('@/assets/img/esteh.jpeg', import.meta.url).href
   },
   {
     id: 3,
-    name: "Ayam Crispy",
-    category: "Snack",
-    price: 10000,
+    name: "Ayam Geprek",
+    category: "Makanan",
+    price: 18000,
     stock: 25,
-    img: "https://source.unsplash.com/300x300/?fried-chicken"
+    img: new URL('@/assets/img/ayamgeprek.jpeg', import.meta.url).href
   },
   {
     id: 4,
-    name: "Kopi Latte",
+    name: "Es Kopi",
     category: "Minuman",
     price: 20000,
     stock: 30,
-    img: "https://source.unsplash.com/300x300/?latte"
+    img: new URL('@/assets/img/eskopi.jpeg', import.meta.url).href
   },
   {
     id: 5,
-    name: "Mie Goreng",
+    name: "Mie Ayam",
     category: "Makanan",
     price: 18000,
     stock: 45,
-    img: "https://source.unsplash.com/300x300/?fried-noodles"
+    img: new URL('@/assets/img/mieayam.jpeg', import.meta.url).href
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const products = ref([
     category: "Makanan",
     price: 30000,
     stock: 20,
-    img: "https://source.unsplash.com/300x300/?burger"
+    img: new URL('@/assets/img/burgers.jpeg', import.meta.url).href
   },
   {
     id: 7,
@@ -66,32 +66,16 @@ const products = ref([
     category: "Snack",
     price: 15000,
     stock: 35,
-    img: "https://source.unsplash.com/300x300/?french-fries"
+    img: new URL('@/assets/img/kentang.jpeg', import.meta.url).href
   },
   {
     id: 8,
-    name: "Milkshake Coklat",
-    category: "Minuman",
-    price: 22000,
-    stock: 18,
-    img: "https://source.unsplash.com/300x300/?chocolate-milkshake"
-  },
-  {
-    id: 9,
-    name: "Sate Ayam",
+    name: "Pizza",
     category: "Makanan",
-    price: 28000,
-    stock: 22,
-    img: "https://source.unsplash.com/300x300/?chicken-satay"
+    price: 45000,
+    stock: 15,
+    img: new URL('@/assets/img/pizza.jpeg', import.meta.url).href
   },
-  {
-    id: 10,
-    name: "Donat",
-    category: "Snack",
-    price: 8000,
-    stock: 60,
-    img: "https://source.unsplash.com/300x300/?donut"
-  }
 ]);
 
 const categories = ref(['Semua', 'Makanan', 'Minuman', 'Snack']);
